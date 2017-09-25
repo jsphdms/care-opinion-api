@@ -8,3 +8,6 @@ Download and visualise Care Opinion data
 Downloading Care Opinion data through their API requires [authentication via an API key](https://www.careopinion.org.uk/info/api-v2-authentication). The download script in this repo will not work without it. Define a valid API key in your .Renviron file like this:
 
 `co_api_key="lotsofrandomlettersandnumbers"`
+
+## Example plot
+![An example plot of Care Opinion data](https://raw.githubusercontent.com/jsphdms/care-opinion-api/master/example_plot_Scotland.png)
