@@ -10,4 +10,6 @@ Downloading Care Opinion data through their API requires [authentication via an 
 `co_api_key="lotsofrandomlettersandnumbers"`
 
 ## Example plot
+Here is an example visualisation of Care Opinion data (produced using the scripts in this repo).
+
 ![An example plot of Care Opinion data](https://raw.githubusercontent.com/jsphdms/care-opinion-api/master/example_plot_Scotland.png)
