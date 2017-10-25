@@ -51,7 +51,7 @@ get_opinions <- function(submittedonafter = "2000-01-01",
     # simple way to work with this is to loop over many requests; appending 
     # responses to a file on disk.
     
-    opinion_content <- GET(paste0("https://www.patientopinion.org.uk/api/v2/",
+    opinion_content <- GET(paste0("https://www.careopinion.org.uk/api/v2/",
                                   "opinions?take=100&skip=", skip, 
                                   "&submittedonafter=", submittedonafter),
                            add_headers(Authorization = co_api_key)) %>%
